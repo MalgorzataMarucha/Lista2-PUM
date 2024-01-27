@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/rounded_corner"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/textExerciseNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zadanie x"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textExerciseDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Treść zadania"/>
+
+    <TextView
+        android:id="@+id/textExercisePoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Punkty: x"/>
+</LinearLayout>
